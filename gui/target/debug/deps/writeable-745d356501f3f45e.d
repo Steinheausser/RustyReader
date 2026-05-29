@@ -1,0 +1,11 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\writeable-745d356501f3f45e.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\cmp.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\concat.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\impls.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\ops.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\parts_write_adapter.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\try_writeable.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\libwriteable-745d356501f3f45e.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\cmp.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\concat.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\impls.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\ops.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\parts_write_adapter.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\try_writeable.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\cmp.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\concat.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\impls.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\ops.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\parts_write_adapter.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\try_writeable.rs:

@@ -1,0 +1,9 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\unicode_segmentation-1e83ddb4daa7a5a6.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\grapheme.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\sentence.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\word.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\tables.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\libunicode_segmentation-1e83ddb4daa7a5a6.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\grapheme.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\sentence.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\word.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\tables.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\grapheme.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\sentence.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\word.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unicode-segmentation-1.13.2\src\tables.rs:

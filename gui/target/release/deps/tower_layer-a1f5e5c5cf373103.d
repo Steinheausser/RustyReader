@@ -1,0 +1,11 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\tower_layer-a1f5e5c5cf373103.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\identity.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\layer_fn.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\stack.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\tuple.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libtower_layer-a1f5e5c5cf373103.rlib: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\identity.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\layer_fn.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\stack.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\tuple.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libtower_layer-a1f5e5c5cf373103.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\identity.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\layer_fn.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\stack.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\tuple.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\identity.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\layer_fn.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\stack.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-layer-0.3.3\src\tuple.rs:

@@ -1,0 +1,11 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\libloading-67a27ef23b307896.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\changelog.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\error.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\os\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\os\windows\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\safe.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\util.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\liblibloading-67a27ef23b307896.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\changelog.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\error.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\os\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\os\windows\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\safe.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\util.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\changelog.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\error.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\os\mod.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\os\windows\mod.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\safe.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libloading-0.8.9\src\util.rs:

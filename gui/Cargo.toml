@@ -1,0 +1,12 @@
+[package]
+name = "gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27.2"
+rfd = "0.14"
+fast-ereader = { path = "../" }
+scraper = "0.19.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

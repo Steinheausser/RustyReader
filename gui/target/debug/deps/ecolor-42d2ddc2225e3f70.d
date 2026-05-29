@@ -1,0 +1,10 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\ecolor-42d2ddc2225e3f70.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\color32.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hsva_gamma.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hsva.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\rgba.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hex_color_runtime.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\libecolor-42d2ddc2225e3f70.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\color32.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hsva_gamma.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hsva.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\rgba.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hex_color_runtime.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\color32.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hsva_gamma.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hsva.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\rgba.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ecolor-0.27.2\src\hex_color_runtime.rs:

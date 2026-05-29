@@ -7,7 +7,106 @@ let chapterBoundaries = [];
 let peripheralChars = 20;
 let peripheralBrightness = 0.5;
 
+function saveSettingsToCookie() {
+    const settings = {
+        themeDark: document.getElementById('theme-toggle').checked,
+        fontSize: document.getElementById('font-size').value,
+        fontWeight: document.getElementById('font-weight').value,
+        peripheralChars: document.getElementById('peripheral-chars').value,
+        peripheralBrightness: document.getElementById('peripheral-brightness').value,
+        bionic: document.getElementById('bionic-toggle').checked,
+        focusColor: document.getElementById('focus-color').value,
+        fontFamily: document.getElementById('font-family').value,
+        customFont: document.getElementById('custom-font').value
+    };
+    document.cookie = "fsr_settings=" + encodeURIComponent(JSON.stringify(settings)) + "; path=/; max-age=31536000";
+}
+
+function loadSettingsFromCookie() {
+    const match = document.cookie.match(new RegExp('(^| )fsr_settings=([^;]+)'));
+    if (match) {
+        try {
+            const settings = JSON.parse(decodeURIComponent(match[2]));
+            if (settings.themeDark) {
+                document.getElementById('theme-toggle').checked = true;
+                document.body.classList.add('theme-dark');
+            }
+            if (settings.fontSize) {
+                document.getElementById('font-size').value = settings.fontSize;
+                document.documentElement.style.setProperty('--user-font-size', `${settings.fontSize}rem`);
+            }
+            if (settings.fontWeight) {
+                document.getElementById('font-weight').value = settings.fontWeight;
+                document.documentElement.style.setProperty('--user-font-weight', settings.fontWeight);
+            }
+            if (settings.peripheralChars) {
+                document.getElementById('peripheral-chars').value = settings.peripheralChars;
+                peripheralChars = parseInt(settings.peripheralChars, 10);
+            }
+            if (settings.peripheralBrightness) {
+                document.getElementById('peripheral-brightness').value = settings.peripheralBrightness;
+                peripheralBrightness = parseFloat(settings.peripheralBrightness);
+                document.documentElement.style.setProperty('--peripheral-opacity', peripheralBrightness);
+            }
+            if (settings.bionic !== undefined) {
+                document.getElementById('bionic-toggle').checked = settings.bionic;
+                bionicEnabled = settings.bionic;
+            }
+            if (settings.focusColor) {
+                document.getElementById('focus-color').value = settings.focusColor;
+                document.documentElement.style.setProperty('--focus-color', settings.focusColor);
+            }
+            if (settings.fontFamily) {
+                document.getElementById('font-family').value = settings.fontFamily;
+                if (settings.fontFamily === 'custom') {
+                    document.getElementById('custom-font-label').style.display = 'flex';
+                    if (settings.customFont) {
+                        document.getElementById('custom-font').value = settings.customFont;
+                        document.documentElement.style.setProperty('--user-font-family', settings.customFont);
+                    }
+                } else {
+                    document.documentElement.style.setProperty('--user-font-family', settings.fontFamily);
+                }
+            }
+            return true;
+        } catch(e) { console.error("Error loading settings from cookie", e); return false; }
+    }
+    return false;
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
+    const settingsLoaded = loadSettingsFromCookie();
+    if (!settingsLoaded) {
+        // Fallback to localStorage
+        const savedFocusColor = localStorage.getItem('focusColor');
+        if (savedFocusColor) {
+            document.documentElement.style.setProperty('--focus-color', savedFocusColor);
+            const fcInput = document.getElementById('focus-color');
+            if (fcInput) fcInput.value = savedFocusColor;
+        }
+        
+        const savedFontFamilySelect = localStorage.getItem('fontFamilySelect');
+        if (savedFontFamilySelect) {
+            const ffSelect = document.getElementById('font-family');
+            if (ffSelect) ffSelect.value = savedFontFamilySelect;
+            if (savedFontFamilySelect === 'custom') {
+                const cfLabel = document.getElementById('custom-font-label');
+                if (cfLabel) cfLabel.style.display = 'flex';
+            }
+        }
+        
+        const savedCustomFontValue = localStorage.getItem('customFontValue');
+        if (savedCustomFontValue) {
+            const cfInput = document.getElementById('custom-font');
+            if (cfInput) cfInput.value = savedCustomFontValue;
+        }
+        
+        const savedUserFontFamily = localStorage.getItem('userFontFamily');
+        if (savedUserFontFamily) {
+            document.documentElement.style.setProperty('--user-font-family', savedUserFontFamily);
+        }
+    }
+
     // 1. Fetch book metadata and populate TOC
     const urlParams = new URLSearchParams(window.location.search);
     currentBookId = urlParams.get('book');
@@ -61,13 +160,19 @@ document.addEventListener('DOMContentLoaded', async () => {
         currentBookData = await res.json();
         const book = currentBookData;
         
+        document.getElementById('reader-container').classList.remove('hidden');
+        document.getElementById('library-view').classList.add('hidden');
+        
         document.getElementById('book-title').innerText = book.title;
         
         const tocContainer = document.getElementById('toc');
-        book.chapters.forEach(chapter => {
+        const srChapterSelect = document.getElementById('sr-chapter-select');
+        srChapterSelect.innerHTML = '';
+        book.chapters.forEach((chapter, index) => {
             const link = document.createElement('a');
             link.href = "#";
-            link.innerText = chapter.title || `Chapter ${chapter.order + 1}`;
+            const chapterTitle = chapter.title || `Chapter ${chapter.order + 1}`;
+            link.innerText = chapterTitle;
             link.style.display = 'block';
             link.style.padding = '8px 0';
             link.style.textDecoration = 'none';
@@ -80,48 +185,157 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             });
             tocContainer.appendChild(link);
+            
+            const option = document.createElement('option');
+            option.value = index;
+            option.innerText = chapterTitle;
+            srChapterSelect.appendChild(option);
         });
         
         // 2. Setup event listeners
         document.getElementById('bionic-toggle').addEventListener('change', (e) => {
             bionicEnabled = e.target.checked;
+            saveSettingsToCookie();
             if (currentBookData) loadAllChapters(currentBookData);
+        });
+        
+        document.getElementById('focus-color').addEventListener('input', (e) => {
+            document.documentElement.style.setProperty('--focus-color', e.target.value);
+            localStorage.setItem('focusColor', e.target.value);
+            saveSettingsToCookie();
+        });
+
+        document.getElementById('font-family').addEventListener('change', (e) => {
+            const val = e.target.value;
+            if (val === 'custom') {
+                document.getElementById('custom-font-label').style.display = 'flex';
+                const customVal = document.getElementById('custom-font').value;
+                if (customVal) {
+                    document.documentElement.style.setProperty('--user-font-family', customVal);
+                    localStorage.setItem('userFontFamily', customVal);
+                }
+            } else {
+                document.getElementById('custom-font-label').style.display = 'none';
+                document.documentElement.style.setProperty('--user-font-family', val);
+                localStorage.setItem('userFontFamily', val);
+            }
+            localStorage.setItem('fontFamilySelect', val);
+            saveSettingsToCookie();
+        });
+
+        document.getElementById('custom-font').addEventListener('input', (e) => {
+            const val = e.target.value;
+            if (val) {
+                document.documentElement.style.setProperty('--user-font-family', val);
+                localStorage.setItem('userFontFamily', val);
+                localStorage.setItem('customFontValue', val);
+                saveSettingsToCookie();
+            }
         });
         
         document.getElementById('theme-toggle').addEventListener('change', (e) => {
             if (e.target.checked) document.body.classList.add('theme-dark');
             else document.body.classList.remove('theme-dark');
+            saveSettingsToCookie();
         });
 
         document.getElementById('font-size').addEventListener('input', (e) => {
             document.documentElement.style.setProperty('--user-font-size', `${e.target.value}rem`);
+            saveSettingsToCookie();
         });
 
         document.getElementById('font-weight').addEventListener('input', (e) => {
             document.documentElement.style.setProperty('--user-font-weight', e.target.value);
+            saveSettingsToCookie();
         });
 
         document.getElementById('peripheral-chars').addEventListener('input', (e) => {
             peripheralChars = parseInt(e.target.value, 10);
+            saveSettingsToCookie();
             if (!speedReaderPlaying) updateSpeedReaderWord();
         });
 
         document.getElementById('peripheral-brightness').addEventListener('input', (e) => {
             peripheralBrightness = parseFloat(e.target.value);
             document.documentElement.style.setProperty('--peripheral-opacity', peripheralBrightness);
+            saveSettingsToCookie();
         });
         
-        document.getElementById('toggle-sidebar').addEventListener('click', () => {
-            document.getElementById('sidebar').classList.toggle('hidden');
+        document.getElementById('toggle-sidebar').addEventListener('click', (e) => {
+            const sidebar = document.getElementById('sidebar');
+            const isHidden = sidebar.classList.contains('hidden');
+            if (isHidden) {
+                sidebar.classList.remove('hidden');
+                e.currentTarget.setAttribute('aria-expanded', 'true');
+            } else {
+                sidebar.classList.add('hidden');
+                e.currentTarget.setAttribute('aria-expanded', 'false');
+            }
         });
 
-        document.getElementById('toggle-settings').addEventListener('click', () => {
-            document.getElementById('settings-panel').classList.toggle('hidden');
+        const settingsPanel = document.getElementById('settings-panel');
+        let currentSettingsTrigger = null;
+
+        function updateSettingsTrigger(e) {
+            const isDifferentTrigger = currentSettingsTrigger !== e.currentTarget;
+            currentSettingsTrigger = e.currentTarget;
+            
+            if (currentSettingsTrigger.id === 'sr-settings') {
+                document.getElementById('speed-reader-overlay').appendChild(settingsPanel);
+            } else {
+                document.getElementById('app').appendChild(settingsPanel);
+            }
+            
+            if (settingsPanel.matches(':popover-open')) {
+                if (isDifferentTrigger) {
+                    repositionSettings();
+                } else {
+                    settingsPanel.hidePopover();
+                }
+            } else {
+                settingsPanel.showPopover();
+            }
+        }
+
+        document.getElementById('toggle-settings').addEventListener('click', updateSettingsTrigger);
+        document.getElementById('sr-settings').addEventListener('click', updateSettingsTrigger);
+
+        function repositionSettings() {
+            if (settingsPanel.matches(':popover-open') && currentSettingsTrigger) {
+                const rect = currentSettingsTrigger.getBoundingClientRect();
+                settingsPanel.style.top = (rect.bottom + 5) + 'px';
+                let left = rect.right - settingsPanel.offsetWidth;
+                if (left < 0) left = 10;
+                settingsPanel.style.left = left + 'px';
+            }
+        }
+
+        settingsPanel.addEventListener('toggle', (e) => {
+            if (e.newState === 'open' && currentSettingsTrigger) {
+                currentSettingsTrigger.setAttribute('aria-expanded', 'true');
+                repositionSettings();
+            } else {
+                if (currentSettingsTrigger) {
+                    currentSettingsTrigger.setAttribute('aria-expanded', 'false');
+                }
+            }
         });
+
+        document.getElementById('close-settings').addEventListener('click', () => {
+            settingsPanel.hidePopover();
+        });
+
+        window.addEventListener('resize', repositionSettings);
+        window.addEventListener('scroll', repositionSettings, { capture: true });
 
         // Speed Reader logic
-        document.getElementById('start-speed-read').addEventListener('click', () => {
-            document.getElementById('speed-reader-overlay').classList.remove('hidden');
+        document.getElementById('start-speed-read').addEventListener('click', (e) => {
+            const dialog = document.getElementById('speed-reader-overlay');
+            e.currentTarget.setAttribute('aria-expanded', 'true');
+            dialog.showModal();
+            const playBtn = document.getElementById('sr-play-pause');
+            if (playBtn) playBtn.focus();
+
             speedReaderWords = getSpeedReaderWords();
             
             const savedProgress = localStorage.getItem('progress_' + currentBookId);
@@ -136,8 +350,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         document.getElementById('sr-close').addEventListener('click', () => {
-            document.getElementById('speed-reader-overlay').classList.add('hidden');
+            document.getElementById('speed-reader-overlay').close();
+        });
+
+        document.getElementById('speed-reader-overlay').addEventListener('close', () => {
+            document.getElementById('start-speed-read').setAttribute('aria-expanded', 'false');
             pauseSpeedReader();
+        });
+
+        document.getElementById('sr-chapter-select').addEventListener('change', (e) => {
+            const idx = parseInt(e.target.value, 10);
+            if (chapterBoundaries[idx] !== undefined) {
+                speedReaderIndex = chapterBoundaries[idx];
+                updateSpeedReaderWord();
+            }
         });
 
         document.getElementById('sr-rewind').addEventListener('click', () => {
@@ -289,6 +515,15 @@ function updateSpeedReaderWord() {
         const pct = Math.floor((speedReaderIndex / (total - 1)) * 100);
         progressCount.innerText = `${speedReaderIndex + 1} / ${total} (${pct}%)`;
         progressSlider.value = pct;
+        
+        let currentChapterIndex = 0;
+        for (let i = chapterBoundaries.length - 1; i >= 0; i--) {
+            if (speedReaderIndex >= chapterBoundaries[i]) {
+                currentChapterIndex = i;
+                break;
+            }
+        }
+        document.getElementById('sr-chapter-select').value = currentChapterIndex;
         
         if (currentBookId) {
             localStorage.setItem('progress_' + currentBookId, speedReaderIndex);

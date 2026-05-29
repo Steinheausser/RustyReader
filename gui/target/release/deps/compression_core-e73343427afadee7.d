@@ -1,0 +1,10 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\compression_core-e73343427afadee7.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\level.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\unshared.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\util.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libcompression_core-e73343427afadee7.rlib: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\level.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\unshared.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\util.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libcompression_core-e73343427afadee7.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\level.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\unshared.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\util.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\level.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\unshared.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\compression-core-0.4.32\src\util.rs:

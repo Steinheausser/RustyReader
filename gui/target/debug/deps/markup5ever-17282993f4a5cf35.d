@@ -1,0 +1,10 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\markup5ever-17282993f4a5cf35.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\interface\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\interface\tree_builder.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\serialize.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\util\buffer_queue.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\util\smallcharset.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\libmarkup5ever-17282993f4a5cf35.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\interface\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\interface\tree_builder.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\serialize.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\util\buffer_queue.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\util\smallcharset.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\interface\mod.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\interface\tree_builder.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\serialize.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\util\buffer_queue.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.35.0\util\smallcharset.rs:

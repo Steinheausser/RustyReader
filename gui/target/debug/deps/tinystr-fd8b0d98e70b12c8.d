@@ -1,0 +1,12 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\tinystr-fd8b0d98e70b12c8.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\macros.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\ascii.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\asciibyte.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\error.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\int_ops.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\unvalidated.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\ule.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\libtinystr-fd8b0d98e70b12c8.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\macros.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\ascii.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\asciibyte.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\error.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\int_ops.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\unvalidated.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\ule.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\macros.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\ascii.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\asciibyte.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\error.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\int_ops.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\unvalidated.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.3\src\ule.rs:

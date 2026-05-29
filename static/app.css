@@ -7,6 +7,8 @@
     --user-font-size: 1.1rem;
     --user-font-weight: 400;
     --peripheral-opacity: 0.5;
+    --focus-color: #ff0000;
+    --user-font-family: system-ui, -apple-system, sans-serif;
 }
 
 body.theme-dark {
@@ -17,12 +19,12 @@ body.theme-dark {
 body {
     background: var(--bg-color);
     color: var(--text-color);
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: var(--user-font-family);
     margin: 0;
     display: flex;
     height: 100vh;
     overflow: hidden;
-    transition: background 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s, font-family 0.3s;
 }
 
 #app {
@@ -48,6 +50,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#reader-container.hidden {
+    display: none;
 }
 
 #top-bar {
@@ -91,17 +97,15 @@ body {
 
 #settings-panel {
     position: absolute;
-    top: 50px;
-    right: 10px;
+    margin: 0;
     background: var(--bg-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    z-index: 100;
+    z-index: 2000;
 }
 
 #settings-panel label {
@@ -120,8 +124,8 @@ body {
     gap: 0.5rem;
 }
 
-#settings-panel.hidden {
-    display: none;
+#settings-panel:popover-open {
+    display: flex;
 }
 
 /* Bionic Reading Styles */
@@ -135,20 +139,24 @@ body {
 }
 
 /* Speed Reader Styles */
-#speed-reader-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+dialog#speed-reader-overlay {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: none;
     background-color: var(--bg-color);
-    z-index: 1000;
-    display: flex;
     flex-direction: column;
 }
 
-#speed-reader-overlay.hidden {
-    display: none;
+dialog#speed-reader-overlay[open] {
+    display: flex;
+}
+
+dialog#speed-reader-overlay::backdrop {
+    background-color: var(--bg-color);
 }
 
 .sr-controls {
@@ -166,26 +174,41 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 #sr-word-display {
     font-size: calc(var(--user-font-size) * 3);
     font-weight: var(--user-font-weight);
-    text-align: center;
     padding: 2rem;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     white-space: pre;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .sr-peripheral {
     opacity: var(--peripheral-opacity);
 }
 
+.sr-peripheral:first-child {
+    text-align: right;
+    justify-self: end;
+}
+
+.sr-peripheral:last-child {
+    text-align: left;
+    justify-self: start;
+}
+
 .sr-center {
     font-weight: 700;
     margin: 0 0.5ch;
+    color: var(--focus-color);
+    text-align: center;
+    justify-self: center;
 }
 
 #sr-progress-container {

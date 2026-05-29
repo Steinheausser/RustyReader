@@ -1,0 +1,31 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\fast_ereader-3c9e35d270013740.d: C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\lib.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\app_state.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\cache.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\cli.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\config.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\book.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\chapter.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\settings.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\error.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\library.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\parser\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\parser\epub.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\html.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\bionic.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\api.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\assets.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\server.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\session.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\util.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libfast_ereader-3c9e35d270013740.rlib: C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\lib.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\app_state.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\cache.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\cli.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\config.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\book.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\chapter.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\settings.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\error.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\library.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\parser\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\parser\epub.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\html.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\bionic.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\api.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\assets.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\server.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\session.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\util.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libfast_ereader-3c9e35d270013740.rmeta: C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\lib.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\app_state.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\cache.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\cli.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\config.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\book.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\chapter.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\settings.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\error.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\library.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\parser\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\parser\epub.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\html.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\bionic.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\mod.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\api.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\assets.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\server.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\session.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\util.rs
+
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\lib.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\app_state.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\cache.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\cli.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\config.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\mod.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\book.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\chapter.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\domain\settings.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\error.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\library.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\parser\mod.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\parser\epub.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\mod.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\html.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\render\bionic.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\mod.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\api.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\routes\assets.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\server.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\session.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\src\util.rs:
+
+# env-dep:CARGO_PKG_NAME=fast-ereader
+# env-dep:CARGO_PKG_VERSION=0.1.0

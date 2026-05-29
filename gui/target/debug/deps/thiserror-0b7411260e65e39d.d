@@ -1,0 +1,14 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\thiserror-0b7411260e65e39d.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\gui\target\debug\build\thiserror-4f43388d263681ec\out/private.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\libthiserror-0b7411260e65e39d.rlib: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\gui\target\debug\build\thiserror-4f43388d263681ec\out/private.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\deps\libthiserror-0b7411260e65e39d.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\gui\target\debug\build\thiserror-4f43388d263681ec\out/private.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\gui\target\debug\build\thiserror-4f43388d263681ec\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Software\\Coding Projects\\Fast Speed Reader\\gui\\target\\debug\\build\\thiserror-4f43388d263681ec\\out

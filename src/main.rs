@@ -1,16 +1,4 @@
-mod app_state;
-mod cache;
-mod cli;
-mod config;
-mod domain;
-mod error;
-mod library;
-mod parser;
-mod render;
-mod routes;
-mod server;
-mod session;
-mod util;
+use fast_ereader::*;
 
 use clap::Parser;
 use cli::{Cli, Commands};

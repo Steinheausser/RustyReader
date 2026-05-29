@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=C:\Software\Coding Projects\Fast Speed Reader\gui\target\debug\build\mime_guess-1361985ebe5dc4a2\out\mime_types_generated.rs

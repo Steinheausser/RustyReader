@@ -1,0 +1,14 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\serde-0dcd8fb4e9200f55.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\gui\target\release\build\serde-8946146c5e4fa9e1\out/private.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libserde-0dcd8fb4e9200f55.rlib: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\gui\target\release\build\serde-8946146c5e4fa9e1\out/private.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libserde-0dcd8fb4e9200f55.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Software\Coding\ Projects\Fast\ Speed\ Reader\gui\target\release\build\serde-8946146c5e4fa9e1\out/private.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Software\Coding\ Projects\Fast\ Speed\ Reader\gui\target\release\build\serde-8946146c5e4fa9e1\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Software\\Coding Projects\\Fast Speed Reader\\gui\\target\\release\\build\\serde-8946146c5e4fa9e1\\out

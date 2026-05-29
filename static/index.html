@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fast Speed Reader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/app.css">
 </head>
 <body class="theme-light">
@@ -27,17 +30,19 @@
         
         <main id="reader-container" class="hidden">
             <header id="top-bar">
-                <button id="toggle-sidebar">☰</button>
+                <button id="toggle-sidebar" aria-expanded="false">☰</button>
                 <div id="book-title"></div>
                 <div class="header-actions">
-                    <button id="start-speed-read" title="Speed Read">⚡</button>
-                    <button id="toggle-settings">⚙</button>
+                    <button id="start-speed-read" title="Speed Read" aria-haspopup="dialog" aria-expanded="false">⚡</button>
+                    <button id="toggle-settings" aria-haspopup="dialog" aria-expanded="false">⚙</button>
                 </div>
             </header>
             
-            <div id="speed-reader-overlay" class="hidden">
+            <dialog id="speed-reader-overlay" aria-label="Speed Reader">
                 <div class="sr-controls">
                     <button id="sr-close">Close</button>
+                    <button id="sr-settings" aria-haspopup="dialog" aria-expanded="false">⚙</button>
+                    <select id="sr-chapter-select"></select>
                     <button id="sr-prev-chapter">⏮ Chapter</button>
                     <button id="sr-rewind">⏪ 10</button>
                     <button id="sr-play-pause">Play</button>
@@ -55,7 +60,7 @@
                         <span id="sr-progress-count">0 / 0 (0%)</span>
                     </div>
                 </div>
-            </div>
+            </dialog>
             
             <article id="chapter-content">
                 <!-- Server-rendered chapter HTML injected here -->
@@ -66,7 +71,8 @@
             </footer>
         </main>
         
-        <div id="settings-panel" class="hidden">
+        <div id="settings-panel" popover="auto" aria-label="Settings">
+            <button id="close-settings" aria-label="Close Settings" style="align-self: flex-end; background: none; border: none; font-size: 1.2rem; cursor: pointer; padding: 0;">×</button>
             <label class="row">
                 <input type="checkbox" id="theme-toggle"> Dark Mode
             </label>
@@ -88,6 +94,25 @@
             </label>
             <label class="row">
                 <input type="checkbox" id="bionic-toggle"> Bionic Reading
+            </label>
+            <label class="row">
+                Focus Word Color
+                <input type="color" id="focus-color" value="#ff0000">
+            </label>
+            <label>
+                Font Family
+                <select id="font-family">
+                    <option value="system-ui, -apple-system, sans-serif">System Default</option>
+                    <option value="'Atkinson Hyperlegible', sans-serif">Atkinson Hyperlegible</option>
+                    <option value="Arial, sans-serif">Arial</option>
+                    <option value="'Times New Roman', serif">Times New Roman</option>
+                    <option value="'Courier New', monospace">Courier New</option>
+                    <option value="custom">Custom...</option>
+                </select>
+            </label>
+            <label id="custom-font-label" style="display: none;">
+                Custom Font Name
+                <input type="text" id="custom-font" placeholder="e.g. Comic Sans MS">
             </label>
         </div>
     </div>

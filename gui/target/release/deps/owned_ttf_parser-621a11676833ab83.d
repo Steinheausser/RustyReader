@@ -1,0 +1,10 @@
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\owned_ttf_parser-621a11676833ab83.d: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\convert.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\owned.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\preparse.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libowned_ttf_parser-621a11676833ab83.rlib: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\convert.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\owned.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\preparse.rs
+
+C:\Software\Coding Projects\Fast Speed Reader\gui\target\release\deps\libowned_ttf_parser-621a11676833ab83.rmeta: C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\lib.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\convert.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\owned.rs C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\preparse.rs
+
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\lib.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\convert.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\owned.rs:
+C:\Users\tanak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\owned_ttf_parser-0.25.1\src\preparse.rs:
