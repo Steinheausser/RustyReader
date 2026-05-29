@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Speed Reader</title>
+    <link rel="stylesheet" href="/app.css">
+</head>
+<body class="theme-light">
+    <div id="app">
+        <aside id="sidebar" class="hidden">
+            <nav id="toc"></nav>
+        </aside>
+        
+        <div id="library-view" class="hidden">
+            <header class="library-header">
+                <h1>My Library</h1>
+                <div class="upload-container">
+                    <label for="book-upload" class="upload-btn">Upload EPUB</label>
+                    <input type="file" id="book-upload" accept=".epub" style="display: none;">
+                </div>
+            </header>
+            <div id="library-list">
+                <!-- Book items injected here -->
+            </div>
+        </div>
+        
+        <main id="reader-container" class="hidden">
+            <header id="top-bar">
+                <button id="toggle-sidebar">☰</button>
+                <div id="book-title"></div>
+                <div class="header-actions">
+                    <button id="start-speed-read" title="Speed Read">⚡</button>
+                    <button id="toggle-settings">⚙</button>
+                </div>
+            </header>
+            
+            <div id="speed-reader-overlay" class="hidden">
+                <div class="sr-controls">
+                    <button id="sr-close">Close</button>
+                    <button id="sr-prev-chapter">⏮ Chapter</button>
+                    <button id="sr-rewind">⏪ 10</button>
+                    <button id="sr-play-pause">Play</button>
+                    <button id="sr-forward">⏩ 10</button>
+                    <button id="sr-next-chapter">⏭ Chapter</button>
+                    <label>
+                        <input type="range" id="sr-wpm" min="100" max="1000" step="50" value="300">
+                        <span id="sr-wpm-label">300 WPM</span>
+                    </label>
+                </div>
+                <div id="sr-word-container">
+                    <div id="sr-word-display">Ready</div>
+                    <div id="sr-progress-container">
+                        <input type="range" id="sr-progress-slider" min="0" max="100" value="0">
+                        <span id="sr-progress-count">0 / 0 (0%)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <article id="chapter-content">
+                <!-- Server-rendered chapter HTML injected here -->
+            </article>
+            
+            <footer id="progress-bar">
+                <div id="progress-fill"></div>
+            </footer>
+        </main>
+        
+        <div id="settings-panel" class="hidden">
+            <label class="row">
+                <input type="checkbox" id="theme-toggle"> Dark Mode
+            </label>
+            <label>
+                Text Size
+                <input type="range" id="font-size" min="0.8" max="2.5" step="0.1" value="1.1">
+            </label>
+            <label>
+                Text Weight
+                <input type="range" id="font-weight" min="300" max="900" step="100" value="400">
+            </label>
+            <label>
+                Peripheral Words Context (Chars)
+                <input type="range" id="peripheral-chars" min="0" max="60" step="5" value="20">
+            </label>
+            <label>
+                Peripheral Brightness
+                <input type="range" id="peripheral-brightness" min="0" max="1" step="0.1" value="0.5">
+            </label>
+            <label class="row">
+                <input type="checkbox" id="bionic-toggle"> Bionic Reading
+            </label>
+        </div>
+    </div>
+    <script type="module" src="/app.js"></script>
+</body>
+</html>
